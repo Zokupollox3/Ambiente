@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JavaScript Área Medio Ambiente</title>
+    <link rel="stylesheet"   href="estilos.css">
+</head>
+<body>
+    <h1>Ejercicios en JavaScript - Área de Medio Ambiente</h1>
+    <div class="problema">
+        <h2>1. Clasificación de calidad del aire (AQI)</h2>
+        <p>Ingresar el valor AQI y clasificar: bueno, moderado, dañino, etc.</p>
+        <input type="number" id="aqiInput" placeholder="Valor AQI (ej: 45)">
+        <button onclick="ejecutarAQI()">Clasificar</button>
+        <div class="resultado" id="resultadoAQI"></div>
+    </div>
+    <div class="problema">
+        <h2>2. Registrar niveles de ruido ambiental</h2>
+        <p>Calcula el promedio de un set de datos de ejemplo (niveles en dB).</p>
+        <button onclick="ejecutarRuido()">Calcular Promedio (Datos de ejemplo)</button>
+        <div class="resultado" id="resultadoRuido"></div>
+    </div>
+    <div class="problema">
+        <h2>3. Contar focos de calor</h2>
+        <p>Cuenta cuántas temperaturas en un set de datos superan los 45°C (se detiene en 0).</p>
+        <button onclick="ejecutarCalor()">Contar Focos (Datos de ejemplo)</button>
+        <div class="resultado" id="resultadoCalor"></div>
+    </div>
+    <div class="problema">
+        <h2>4. Clasificación del tipo de residuo</h2>
+        <p>Según código 1-4: orgánico, plástico, papel/cartón, vidrio.</p>
+        <input type="number" id="residuoInput" placeholder="Código (1-4)">
+        <button onclick="ejecutarResiduo()">Identificar</button>
+        <div class="resultado" id="resultadoResiduo"></div>
+    </div>
+    <div class="problema">
+        <h2>5. Monitoreo de niveles del río</h2>
+        <p>Simula el registro de niveles de un río hasta que se decide parar.</p>
+        <button onclick="ejecutarRio()">Iniciar Simulación de Monitoreo</button>
+        <div class="resultado" id="resultadoRio"></div>
+    </div>
+    <script src="indx.js"></script>
+</body>
+</html>
